@@ -64,7 +64,7 @@ cmap = sns.cubehelix_palette(rot=-.2, as_cmap=True)
 g = sns.relplot(
     data=df,
     x="pl_orbsmax", y="pl_eqt",
-    hue="habitavel", size="pl_bmasse",
+    hue="habitável", size="pl_bmasse",
    sizes=(10, 200),
 )
 g.set(xscale="log", yscale="log")
